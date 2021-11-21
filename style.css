@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-image: url('minigameUI.png');
+    background-repeat: no-repeat;
+    background-size: 1280px 574px;
+    background-color: rgb(155, 98, 201);
+}
+
+#instrucitons, #game{
+    background-color: #67697C;
+    width: 911px;
+    height: 362px;
+    text-align: center;
+    align-items: center;
+    padding-top: 12.5%;
+    margin-left: 13.8%;
+    position: absolute;
+    top: -1%;
+}
+#instrucitons button,#game button{
+    width: 100px;
+    height: 75px;
+    font-size: 1.5em;
+    border-radius: 25%;
+}
